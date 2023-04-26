@@ -6,7 +6,6 @@ class ShoppingBasket {
   }
 
   getTotalPrice() {
-
    return this.basketPrice
   }
 
@@ -14,8 +13,8 @@ class ShoppingBasket {
     this.candies.push(candy.candy)
     this.basketPrice += candy.price;
   }
-
 }
 
 
 module.exports = ShoppingBasket
+
